@@ -412,7 +412,7 @@ a {
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: #e4575a;
 }
 
 .info {
@@ -534,15 +534,15 @@ a {
 }
 
 .theme.col-3 {
-  background-color: #deb2ee;
+  background-color: #bdafd9;
 }
 
 .theme.col-4 {
-  background-color: #7ee6fd;
+  background-color: #83e7fd;
 }
 
 .theme.col-5 {
-  background-color: #88d9a0;
+  background-color: #89d9a1;
 }
 
 .theme.col-6 {
@@ -550,11 +550,11 @@ a {
 }
 
 .theme.col-7 {
-  background-color: #ec9fa3;
+  background-color: #ef999b;
 }
 
 .theme.col-8 {
-  background-color: #fd9f85;
+  background-color: #fea088;
 }
 
 .theme.col-9 {
@@ -570,7 +570,7 @@ a {
 }
 
 .theme.col-12 {
-  background-color: #80e8d1;
+  background-color: #83e9d1;
 }
 
 .card {

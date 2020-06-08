@@ -29,15 +29,15 @@
 }
 
 .theme.col-3 {
-  background-color: #deb2ee;
+  background-color: lighten($info-purple, 15%);
 }
 
 .theme.col-4 {
-  background-color: #7ee6fd;
+  background-color: lighten($default-aqua, 10%);
 }
 
 .theme.col-5 {
-  background-color: #88d9a0;
+  background-color: lighten($success-green, 10%);
 }
 
 .theme.col-6 {
@@ -45,11 +45,11 @@
 }
 
 .theme.col-7 {
-  background-color: #ec9fa3;
+  background-color: lighten($error-red, 15%);
 }
 
 .theme.col-8 {
-  background-color: #fd9f85;
+  background-color: lighten($warning-orange, 10%);
 }
 
 .theme.col-9 {
@@ -65,7 +65,7 @@
 }
 
 .theme.col-12 {
-  background-color: #80e8d1;
+  background-color: lighten($brand-seafoam, 10%);
 }
 
 .card {
