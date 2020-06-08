@@ -22,5 +22,5 @@
 
 .nav-link:hover {
   color: #fff;
-  background-color: $brand-seafoam;
+  background-color: lighten($brand-seafoam, 10%);
 }
