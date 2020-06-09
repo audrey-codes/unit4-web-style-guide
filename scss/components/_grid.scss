@@ -4,12 +4,21 @@
 
 .container {
   padding: 0 10px;
+  @media (min-width: $break) {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .row {
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
+  @media (min-width: $break) {
+    flex-direction: row;
+  }
 }
 
 [class^=col] {
@@ -18,54 +27,96 @@
   min-height: 25px;
   padding: 10px;
   border-radius: 5px;
+  @media (min-width: $break) {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
 }
 
 .theme.col-1 {
   background-color: #927bc1;
+  @media (min-width: $break) {
+    flex-basis: 8.33%;
+  }
 }
 
 .theme.col-2 {
   background-color: #fd7856;
+  @media (min-width: $break) {
+    flex-basis: 16.67%;
+  }
 }
 
 .theme.col-3 {
   background-color: lighten($info-purple, 15%);
+  @media (min-width: $break) {
+    flex-basis: 25.00%;
+  }
 }
 
 .theme.col-4 {
   background-color: lighten($default-aqua, 10%);
+  @media (min-width: $break) {
+    flex-basis: 33.33%;
+  }
 }
 
 .theme.col-5 {
   background-color: lighten($success-green, 10%);
+  @media (min-width: $break) {
+    flex-basis: 41.67%;
+  }
 }
 
 .theme.col-6 {
   background-color: #4da2bb;
+  @media (min-width: $break) {
+    flex-basis: 50.00%;
+  }
 }
 
 .theme.col-7 {
   background-color: lighten($error-red, 15%);
+  @media (min-width: $break) {
+    flex-basis: 58.33%;
+  }
 }
 
 .theme.col-8 {
   background-color: lighten($warning-orange, 10%);
+  @media (min-width: $break) {
+    flex-basis: 66.67%;
+  }
 }
 
 .theme.col-9 {
   background-color: #e4757a;
+  @media (min-width: $break) {
+    flex-basis: 75.00%
+  }
 }
 
 .theme.col-10 {
   background-color: #63cc82;
+  @media (min-width: $break) {
+    flex-basis: 83.33%;
+  }
 }
 
 .theme.col-11 {
   background-color: #51ddfc;
+  @media (min-width: $break) {
+    flex-basis: 91.67%;
+  }
 }
 
 .theme.col-12 {
   background-color: lighten($brand-seafoam, 10%);
+  @media (min-width: $break) {
+    flex-basis: 100%;
+  }
 }
 
 .card {
