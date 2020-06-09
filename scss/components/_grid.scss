@@ -50,21 +50,21 @@
 }
 
 .theme.col-3 {
-  background-color: lighten($info-purple, 15%);
+  background-color: lighten($info, 15%);
   @media (min-width: $break) {
     flex-basis: 25.00%;
   }
 }
 
 .theme.col-4 {
-  background-color: lighten($default-aqua, 10%);
+  background-color: lighten($secondary, 10%);
   @media (min-width: $break) {
     flex-basis: 33.33%;
   }
 }
 
 .theme.col-5 {
-  background-color: lighten($success-green, 10%);
+  background-color: lighten($success, 10%);
   @media (min-width: $break) {
     flex-basis: 41.67%;
   }
@@ -78,14 +78,14 @@
 }
 
 .theme.col-7 {
-  background-color: lighten($error-red, 15%);
+  background-color: lighten($error, 15%);
   @media (min-width: $break) {
     flex-basis: 58.33%;
   }
 }
 
 .theme.col-8 {
-  background-color: lighten($warning-orange, 10%);
+  background-color: lighten($warning, 10%);
   @media (min-width: $break) {
     flex-basis: 66.67%;
   }
@@ -113,7 +113,7 @@
 }
 
 .theme.col-12 {
-  background-color: lighten($brand-seafoam, 10%);
+  background-color: lighten($primary, 10%);
   @media (min-width: $break) {
     flex-basis: 100%;
   }
